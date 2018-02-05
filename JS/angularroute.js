@@ -10,6 +10,9 @@ app.config(function($routeProvider) {
     })
     .when("/login", {
         templateUrl : "pages/Login.html"
+    })
+    .when("/register", {
+        templateUrl : "pages/register.html"
     });
 });
 
